@@ -268,4 +268,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Smooth scroll para seção (se navegação existir)
     const navLinks = document.querySelectorAll('a[href="#certificacoes"]');
-});
