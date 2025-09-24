@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
             imagemUrl: 'assets/img/certificados/imersao-dados.jpg', // Substitua pela URL real
             verificacaoUrl: '#'
         },
-        'jornada_python': {
+        'jornada-python': {
             titulo: 'Jornada Python HashtagTreinamentos',
             instituicao: 'HashtagTreinamentos',
             descricao: 'Participação na Jornada Python promovida pela Hashtag Treinamentos, curso intensivo de 4 dias com foco em projetos práticos de Python, abordando automação, análise de dados, machine learning e aplicações web.',
