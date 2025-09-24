@@ -52,7 +52,15 @@ document.addEventListener('DOMContentLoaded', function() {
             competencias: ['Análise de Dados', 'Programação em Python', 'Visualização Gráfica', 'Tratamento de Dados'],
             imagemUrl: 'assets/img/certificados/imersao-dados.jpg', // Substitua pela URL real
             verificacaoUrl: '#'
-        },        
+        },
+        'jornada_python': {
+            titulo: 'Jornada Python HashtagTreinamentos',
+            instituicao: 'HashtagTreinamentos',
+            descricao: 'Participação na Jornada Python promovida pela Hashtag Treinamentos, curso intensivo de 4 dias com foco em projetos práticos de Python, abordando automação, análise de dados, machine learning e aplicações web.',
+            competencias: ['Análise de Dados', 'Programação em Python', 'Visualização Gráfica', 'Machine Learning'],
+            imagemUrl: 'assets/img/certificados/jornada-python.jpg', // Substitua pela URL real
+            verificacaoUrl: '#'            
+        }        
     };
 
     // Função para abrir o modal
