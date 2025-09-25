@@ -1064,9 +1064,10 @@ body {
 }
 
 .projeto-imagem {
-    position: relative;
-    overflow: hidden;
-    height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .projeto-imagem img {
