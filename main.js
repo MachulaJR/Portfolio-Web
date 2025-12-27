@@ -60,15 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
             competencias: ['Análise de Dados', 'Programação em Python', 'Visualização Gráfica', 'Machine Learning'],
             imagemUrl: 'assets/img/certificados/jornada-python.jpg', // Substitua pela URL real
             verificacaoUrl: '#'            
-        },
-        'intensivao-bi': {
-            titulo: 'Intensivão Power BI HashtagTreinamentos',
-            instituicao: 'HashtagTreinamentos',
-            descricao: 'Participação no Intensivão de Power BI promovido pela Hashtag Treinamentos, curso intensivo de 4 dias com foco na construção prática de dashboards completos em diferentes áreas (Vendas, Produção, Recursos Humanos e Financeiro), abordando transformação de dados com Power Query, criação de fórmulas DAX e aplicação de recursos visuais avançados.',
-            competencias: ['Análise de Dados', 'Power Query', 'DAX', 'Modelagem de Dados', 'Visualização Gráfica', 'Construção de Dashboards'],
-            imagemUrl: 'assets/img/certificados/intensivao-bi.jpg', // Substitua pela URL real
-            verificacaoUrl: '#'            
-        }                    
+        }        
     };
 
     // Função para abrir o modal
