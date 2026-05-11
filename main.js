@@ -29,22 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
             imagemUrl: 'assets/img/certificados/cfc-2025.jpg', // Substitua pela URL real
             verificacaoUrl: '#'
         },
-        'lifelong-learning': {
-            titulo: 'Lifelong Learning',
-            instituicao: 'CertiProf',
-            descricao: 'Certificação internacional em aprendizado contínuo e desenvolvimento profissional. Focado em metodologias de autodesenvolvimento, adaptação às mudanças tecnológicas e crescimento profissional sustentável.',
-            competencias: ['Autodesenvolvimento', 'Adaptabilidade', 'Metodologias de Aprendizado', 'Mindset de Crescimento', 'Inovação'],
-            imagemUrl: 'assets/img/certificados/lifelong-learning.jpg', // Substitua pela URL real
-            verificacaoUrl: '#'
-        },
-        'scrum-foundation': {
-            titulo: 'Scrum Foundation',
-            instituicao: 'CertiProf',
-            descricao: 'Certificação fundamental em metodologia Scrum e práticas ágeis. Conhecimentos essenciais sobre framework Scrum para gestão de projetos, desenvolvimento de software e liderança de equipes ágeis.',
-            competencias: ['Scrum Framework', 'Metodologias Ágeis', 'Gestão de Projetos', 'Trabalho em Equipe', 'Sprint Planning'],
-            imagemUrl: 'assets/img/certificados/scrum-foundation.jpg', // Substitua pela URL real
-            verificacaoUrl: '#'
-        },
+
         'imersao-dados': {
             titulo: 'Imerão Dados Alura',
             instituicao: 'Alura',
@@ -68,7 +53,15 @@ document.addEventListener('DOMContentLoaded', function() {
             competencias: ['Análise de Dados', 'Power Query', 'DAX', 'Modelagem de Dados', 'Visualização Gráfica', 'Construção de Dashboards'],
             imagemUrl: 'assets/img/certificados/intensivao-bi.jpg', // Substitua pela URL real
             verificacaoUrl: '#'            
-        }        
+        },
+        'mapeamento-processos': {
+            titulo: 'Mapeamento e Análise de Processos',
+            instituicao: 'PUCRS',
+            descricao: 'Curso de extensão voltado à gestão por processos, com foco em mapeamento, análise e melhoria contínua de fluxos administrativos e produtivos. Formação pela PUCRS, abordando práticas Lean e ferramentas visuais para otimização de processos e aumento de eficiência organizacional.',
+            competencias: ['Gestão por Processos', 'Melhoria de Processos', 'Mapeamento de Fluxo de Valor', 'Análise de Processos'],
+            imagemUrl: 'assets/img/certificados/mapeamento-processos.jpg', // Substitua pela URL real
+            verificacaoUrl: '#'            
+        }         
     };
 
     // Função para abrir o modal
@@ -284,4 +277,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Smooth scroll para seção (se navegação existir)
     const navLinks = document.querySelectorAll('a[href="#certificacoes"]');
+
+    // Clique nos cards de projeto → abre GitHub
+    const projetoCards = document.querySelectorAll('.projeto-card[data-github]');
+
+    projetoCards.forEach(card => {
+        card.style.cursor = 'pointer';
+
+        card.addEventListener('click', function () {
+            const url = this.getAttribute('data-github');
+            if (url && url !== '#') {
+                window.open(url, '_blank', 'noopener,noreferrer');
+            }
+        });
+    });
 });
