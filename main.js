@@ -61,6 +61,14 @@ document.addEventListener('DOMContentLoaded', function() {
             competencias: ['Gestão por Processos', 'Melhoria de Processos', 'Mapeamento de Fluxo de Valor', 'Análise de Processos'],
             imagemUrl: 'assets/img/certificados/mapeamento-processos.jpg', // Substitua pela URL real
             verificacaoUrl: '#'            
+        },         
+        'jornada-dados': {
+            titulo: 'Imersão Profissional Jornada de Dados',
+            instituicao: 'Jornada de Dados',
+            descricao: 'Formação prática em SQL, Python, dbt e Power BI, cobrindo todo o ciclo de dados: da ingestão em Data Lakes à modelagem em arquitetura medalhão (Bronze, Silver, Gold), criação de dashboards analíticos e automação com agentes de IA.',
+            competencias: ['SQL', 'Python', 'Data Werehouse', 'Engenharia de Dados'],
+            imagemUrl: 'assets/img/certificados/jornada-dados.jpg', // Substitua pela URL real
+            verificacaoUrl: '#'            
         }         
     };
 
